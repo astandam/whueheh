@@ -1,0 +1,14 @@
+{
+	"name": "metro-css",
+	"description": "A website template with \"Metro\" styling.",
+	"version": "0.0.1",
+	"author": "Code 52",
+	"contributors": [
+		{ "name" : "Chris Sainty", "email": "csainty@hotmail.com" }
+	],
+	"dependencies": {
+		 "puppeteer": "^0.10.2"
+	},
+	"repository": "https://github.com/astandam/whueheh",
+	"main": "metro"
+}
